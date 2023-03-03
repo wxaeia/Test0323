@@ -12,6 +12,7 @@ $ python manage.py migrate
 $ python manage.py runserver
 ``
 Can create admin-user to access django admin
+Please use postman to test post API's 
 Endpoint 
     - http://127.0.0.1:8000/check_duplicate/<str:sentence>
     - http://127.0.0.1:8000/commas/
